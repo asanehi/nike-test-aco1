@@ -1,0 +1,29 @@
+a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 8px 16px;
+  }
+  
+  a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  .previous {
+    background-color: #747171;
+    color: black;
+  }
+
+  .round {
+    border-radius: 100%;
+  }
+
+body {
+  min-width: 230px;
+  max-width: 100%;
+}
+
+#Account, #Password, #Proxy, #Link {
+  width: 230px;
+}
+

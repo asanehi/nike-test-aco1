@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="button.css"/>
+    <script src="storage.js"></script>
+    <style>
+      button {
+        height: 30px;
+        width: 30px;
+        outline: none;
+      }
+    </style>
+  </head>
+  <form>
+    <label for="Account">Account Email:</label><br>
+    <input type="text" id="Account" name="Account"><br>
+    <label for="Password">Password:</label><br>
+    <input type="text" id="Password" name="Password">
+
+    <br>
+    <label for="Proxy">Proxy:</label><br>
+    <input type="text" id="Proxy" name="Proxy">
+    <br>
+    <label for="Link">Product Link:</label><br>
+    <input type="text" id="Link" name="Link">
+    <br>
+    <div style="float: left;">
+      <input type="submit" value="Save" id="button">
+    </div>
+    <div style="float: left;">
+      <input type="button" id="Load" value="Reload old content">
+    </div>
+    <div style="float: left;">
+      <input type="button" id="Login" value="Login">
+    </div>
+    
+  </form>
+  <a href="profile.html" class="previous">Profile &#187;</a>
+</html>
+
